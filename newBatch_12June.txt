@@ -1,0 +1,891 @@
+New batch 12June 2025
+............................
+Mon - Fri.....regular class mock...9.30am
+Sat---1st n 3rd sat off
+2nd n 4th offline mock.
+
+Core java-DB(MySql)-JDBC-FrontEND-Advance java
+project sessions...online 
+Angular.........online
+
+Development--
+Advance java....
+Hibernate
+Spring Boot,MVC
+servlet-jsp
+Project session
+
+Testing...
+Manual testing 
+Automation testing---selenium
+
+Access---
+Portal Access..
+session recording,assignment,doc
+
+Mock interview---------Feedback
+JBK test................
+Demand test...mail result
+
+....................
+13June............
+.....................
+
+Organisation..
+Aptitute...Tech round 2...HR------
+2-3 months training---
+Assignmets------1,2,3
+....bench---no project
+project interview-------
+skills
+Client interview
+-------------------------------
+Project task start....
+KT
+teams...
+..............
+Client>end user>Customer----complete knowladge of application
+BA--collect requirments from client what he/she wants in application...
+project Manager>>>>resourses
+Team lead...
+4 developer and 5 tester(3 manual and 2 automation)
+-------------------------
+Agile
+scrum master/project manager
+stand up call......
+status call...
+---------------------------------
+16June 
+
+Editor-Eclipse.....vc code,intelliJ
+jdk1.8...latest 11,17,21,23
+short cuts keys>>>
+
+ctr+space
+ctr+a --- select all
+ctr+shift+F --- align all selected text
+ctr+s ----
+
+Create proper workspace where u want to save ur all project in ur system
+1)create project....java project
+2)package......com.tka(inside a src folder)
+3)create class (inside package)---
+---First letter should be in capital letter
+4)write down main method inside a class
+--main()--without main() we cannot execute java program.
+--it must have to be main inside a java class to execute program.
+5)write print statement inside main()
+--System.out.println(""): It use to print on console.
+-- ln : new line
+
+//----comment for single line
+/* */----comment for multiple line
+ctr+shift+/ ----comment for multiple line
+
+.....................................................................17june
+Revision.............
+----------------------
+19June
+basic java.
+..........................
+20june
+
+Rules to write program:
+
+1)simple and meaningfull
+2)to avaid comlexity
+3)nameing conventions---
+theKiranAcademy
+4)give proper name to class,variable and method so that new person can understand for which we are using that class,variable and method
+
+methods..
+---
+addition(){...here logic}...simple method bcoz here we can see () in front of addition name
+
+addition(int a){  ...parameterize method
+  
+///java logic
+
+}
+
+............................
+
+Object creation
+---we can create object of class only in java
+---
+
+class Addition123{
+//class members()variablkes and methods
+
+addition(){
+///addition logic
+}
+main(){
+//.....Object creation
+Addition123 object=new Addition123();///object-add
+object.addition();// method calling
+}
+
+}
+
+Task:
+//create new cls> make 4 methods and wirte code for add,sub,multi,division in separete method
+create object of that class and call all 4 methods
+
+-------------------------
+23June
+Method return type:
+void-not not retuning anything(no return)
+
+
+void addTwoNumbers(){
+int a=10;int b=10;
+int c=a+b;
+sop(c);
+}
+
+parameterise method:
+
+void addTwoNumbers(int a,int b){
+int c=a+b;
+sop("Addition"+c);
+}
+psvm(){
+Add obj=new Add();
+obj.addTwoNumbers(10,20);
+}
+
+String addTwoNumbers(int a,int b){
+
+return "fg";
+}
+
+......................................
+25June
+Operator..
+--assignment operator
+(+=,-=,/=,*=,%=)
+a+=b...a=a+b
+a-=b...a=a-b
+--logical operator
+(&&,||)
+--must have 2 conditions
+--&& AND
+>>if both conditions are true then rsult-true
+>>if any one condition wrong then result -false
+--(3>5)&&(5>3):::F&&T--F
+
+--|| OR
+--if anyone codintion is true then result-ture
+
+--(3>5)||(5>3):::F||T-T
+
+--relational operatior
+(<,>,<=,>=)
+--equality
+(!)
+--unary--(++,--)
+increame by 1 and decrease by 1
+>increament:5++,++5
+>>post increament-  5++ sop(5)
+>>pre increament-  ++5 sop(6)
+>decreament :
+>>post decreament 4--
+>>pre decreament  --4
+
+------------------------------------
+26June
+
+--ternary operator
+(conditiopn/expression)? correct : wrong
+
+--bitwise
+// if num is positive then: num+1=(-)result
+// if num is Negative then: num-1=(+)result
+~2
+
+--equality
+==
+!=
+
+..................
+Debugging
+
+........................
+27June
+
+conditinal state..
+
+if()----
+if(condition){
+if above condition true then execute this block of code
+}
+
+if_else-----
+
+if(condition){
+if above condition true then execute this block of code
+
+}else{
+if above condition false then execute this block of code
+
+}
+...............
+write a program to check given number is divisible by 2 or 5.
+divisible by 2-if given num is less than 40
+divisible by 5-if given num is grater than 40
+
+if(){
+
+	if(){
+
+	}else{
+	}
+}else{
+	if(){
+
+	}else{
+	}
+
+}
+.................
+if(){
+
+}else_if(){
+
+}else_if(){
+
+}else{
+
+}
+grade
+.........................
+for()
+switch case
+while()
+do_while
+.....................
+Classroom work:
+1)JBK test pick any topic
+2)revise previous topics
+3)try to write program with own logic
+OR can take help from internate.
+
+30June
+for(1;2;3)++
+
+for(assignment;condition;incerement/decreament){
+//logic
+}
+0 to 5
+for(int i=0;i<6;i++){
+sop(i);  0,1,2...5
+}
+
+...
+print numbers wich are divisible by 5 and 7 from 50 to 100 numbers.
+
+for_Each...........hold till array
+
+while
+
+while(condition){
+///logic
+}
+
+do_while
+
+do{
+sop
+}while()
+
+switch_case
+
+switch(3){
+case 1:
+SOP("MON");
+break;
+case 2:
+SOP("TUE");
+break;
+case 3:
+SOP("THUR");
+break;
+case 4:
+SOP("WED");
+break;
+case 5:
+SOP("FRI");
+break;
+default:
+
+
+}
+..............................
+02July
+Packages,data type,Access specifier
+
+Numeric---int ,float,double,long
+ and non numeric--boolean
+String---"s",char----'f'
+Access specifier
+public 
+private
+protected
+default
+--------------------------
+03July
+OOPS concept:
+char ch='s';
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+sop(vowel)
+}else{
+sop(consonanat)
+}
+OOPS concept:
+
+Inheritance....
+parent/super class and child/sub class
+--if we want to reuse functinality of another cls 
+--extends,implements keywords we will use to connect two class or interface
+--class-class>>extends
+--class_interface>>implements
+
+class A{
+m1(){addition of two number}
+#
+}
+}
+class B extends A{
+m2(){}
+main(){
+B b=new B();
+b.m1();
+b.m2();
+}
+}
+..........................
+04July
+print numbers from 100 to 150 which are divisible by 4
+...........................
+07July
+Polymorphism......overloading and overriding
+Method overloading>>
+--same method trying to use multiple times within a class(same class).
+--if we want to do Method overloading then should have to follw some rules:-
+--Types parameters should be change.
+--Sequence of parametres should be change
+--number of parameters should be change.
+
+Method overriding>>
+--same method of one class can use in another class as it is (without any change in method signature)then can say that Method override.
+--rule >>
+use exact same method signature in another class().
+
+----08July
+Abstarction...Interface
+---abstract keyword
+>>>class,method
+>>>we cannot create instance(object) of abstract class.
+>>>if method as abstract then we no need to implement that method.(we should have to declare abstreact method).
+>>>declare means no method body or block.
+void m1(){hjjjkkjkj}
+abstract void m1();
+>>>abstract class Abc{
+members
+}
+>>>abstract class Batch{
+
+void m1(){}
+abstract void m2();
+void m3(){}
+
+}
+class OwnCls extends Batch{
+void m2{}
+main(){
+object....
+call method...run
+}
+}
+
+>>>if anyone method from class is abstract then we kust have to make class as a abstract.
+>>>if we dont want to implement any method then shold have to declare that method as a abstract.
+>>>while inheriting any class and if there is abstract method then make sure we have implemented that abstract method in new class.
+
+-------------------------------------
+09July
+Interface....
+>>It is like a class BUT Interface have some restrinction to define by default variables and methods.
+>>Class have constructor and we can create object of class BUT Interface doesnt have constructor and we cannot create object of Interface.
+>>We can create reference var of interface but cannot create object.
+>>In Interface By default
+--variables are public static final.
+int a;
+--Methods are abstract only.
+..void m1();
+>>>is there multiple inheritance allowed in java?
+Its not allowed in java in case of classes  BUT
+its possible in case of interfaces.
+
+multiple inheritance:
+one more that one parent/super cls  and one child/sub cls
+----------------------------------
+10July
+Types of inheritance...
+Single inheritance
+Class A{}
+Class B extends A{}
+
+multilevel inheritance
+A
+B extends A 
+C extends B
+
+multiple inheritance
+Class A extends B,C(classes)...not possible in java
+Class A implements B,C(Interfaces)... possible in java
+
+hybrid inheritance/cylic inheritance...not possible in java
+A extends B
+B extends A
+
+Hirarchical inheritance
+ class A(common code)
+class B extends A
+class C extends A
+class D extends A
+
+Encapsulation......
+---if want to protect our data.OR want to hide data then that time can go with encapsulation.
+---simply make variable as a private as.
+---set()>set the value of var. and get()>we can fetch.
+---if we want to use those private variables then can access with get() method.
+---set() and get() make sure access specifire should be public.
+
+..................................
+
+some remaining concept--Fri 11July
+Sat Sun---
+Mon Test--offline / online
+.....................................
+11July
+Scanner class
+Global/local variables
+Dynamic dispatch
+doubt session........
+
+14July
+Offline Test
+........................................
+
+15July..
+Constructor
+--Constructor have same name with class name
+--Constructor does not have any return type.
+--once constructor called Object will create.
+--we can use same constructor multiple times by changing parametrs then we can say constructor overloading.
+--Types of constructor:
+Default constructor
+Parameterise constructor
+>>Default constructor called when object will be created.
+>>Parameterise constructor called when there will be constructor with some parameters.
+>>then that time preferece will be given to Parameterise constructor
+--Constructor overloading is possible BUT constructor overriding is not possible.
+class Batch{
+Batch(){//Default constructor
+sop("method")
+}
+Batch(int a){//param const
+sop("method")
+}
+Batch(int a,String str){//param const
+sop("method")
+}
+void m1(){
+sop("method")
+}
+main(){
+Batch object=new Batch(2,"gg");
+object.m1();
+}
+}
+
+................................................
+
+16July
+static
+{}
+>>static is a keyword in  java
+>>static can be method,variables and block.
+(class cannot be static***)
+>>No need to create object of class to call static members(methods and variables)
+>>we can call static members using class name.
+class Batch{
+static void m1(){
+}
+main{
+Batch.m1();
+}
+
+}
+>>static and non static/instance
+static void m1{}--static method
+ void m1{}--non static method
+>>Memory:
+--static members get memory once main memory loaded.
+--Instance variables get memory once object created in memory.
+>>static can allow only static members.
+And non static method can allow both static and non-static members.
+----------------
+17July
+>>one copy storage
+--------------
+Final keyword...
+--it is a keyword in java.
+--final can be--class,method and variables
+--final variables:
+we cannot ressign value of final variables(means we cannot change the value of final variables).
+--must be initialized final variable.
+--final method:
+we cannot overried final method(means we cannot reuse final method from one class to another class.
+--final class:
+we cannot inherite that final class(we cannot extend final class.)
+-----------------------
+--if we know the value of any variable will not be change through out the program then that time we will declare that variable as a final.
+-----------------
+21July
+super this
+---both are keywords in java
+super....
+--it refers to super class object.
+--we can call variables and methods of super class using super keyword.
+super.m1();..method
+super.varaile;...variable
+super();...constructor
+
+this..
+--this refers to current class object.
+--we can do constructor overloading using this keyword.
+--it defferentiate global/instance and local variable
+...................................
+22July
+String
+--it belongs to java.lang pckg
+--It works as a data type in java
+--It also works as a predefine class in java.
+--it is immutable(we cannot change original value of string).
+--if we want to change the value of string then need to store that new value in another string.
+--there are various methods in String class.
+--we can get the length string with length().
+--String index of string always 0 AND
+End index of string always(lenght-1)
+...........................................
+23July
+String,
+String builder,String buffer
+--mutable(we can change value of original string)
+--reverse()
+
+---------------------------------------------------------
+24July
+Core java Covered Topics-Online Test
+..................................................
+25July 
+Array--1D,2D
+----[]
+int a;
+int a[];
+int a[]={2,4,77}
+a.length;
+start index=0
+end index=lenght-1
+
+int a=new a[3];
+a[0]=1;
+a[1]=1;
+a[2]=1;
+
+ArrayIndexOutOfBoundsException
+................................
+28July
+Proggramming Test Oreal
+Array 2D
+int a[][]={R,C}
+int a[3][]={{2,3},{4,5,6},{1,4}}
+
+
+i<=c..... i<c OR i=c
+''''''''''''''''''''''''''''''''
+31July
+
+Object>
+Throwable>
+Exception>
+--unchecked exception:
+>>which exceptions Occures due to programmer mistake and he/she can resolve that excpetion in compile time only that type of exception are called unchecked exception.
+Ex.
+ArrayIndexOutOfBoundsException
+--checked exception:
+>>which exception cannot resolve with programming logic by developer and we should handle it using try_catch block or throws keyword.
+Ex.
+IO,Thread,SQL related lines
+Error>
+
+Exception Handling
+--unwanted error and unexpected error
+--if exception occurs at any line then below that line code will stop execution
+--we can handle exception using 
+try_catch block,throw and throws
+try{
+///exception line
+}catch(exception Name){
+
+}
+
+try{.....}
+catch(){}
+catch(){}
+catch(){}
+
+
+try{
+
+}
+catch(){
+	try{
+	}
+	catch(){
+
+	}
+}
+catch(){}
+try{}
+
+throws---it method level exception
+implicitly called(automatically)
+throw----Explicitly
+--inside a method
+............................
+class abc{
+m1(){}
+m2(){}
+m3(){}
+}
+---use with by extending Thread class
+---use with by implementing Runnable interface
+
+run(){}---Thread class
+
+start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...........................................................
+
+https://javabykiran.com/jbkcrm/admin/livebatches/view/ODgwMzE1MzYwMDAw
+
+https://javabykiran.com/jbkcrm/admin/batches
+..............................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
