@@ -1,0 +1,1083 @@
+new batch
+N18 Batch...
+01Aug...
+Core java+JDBC+Mysql(DB)+FE+
+Testing--Manual testing,Automation Testing-selenium+java
+Development-
+Hibernate
+Spring Boot
+Spring Boot MVC
+Servlet JSP
+Project Session + angular session
+--
+MON-FRI---3:00pm>>
+SAT 2nd,4th
+
+---
+Portal Access:
+N18
+TKA
+jbk test
+mock interview
+Demand Test
+offline Test-3
+10-6
+Technical support
+Customer
+Placement
+..........................................
+04July
+Apptitute
+Organisation level interview---
+HR------
+.................
+3month training
+---Test
+------------
+Bench
+---Internal interview
+interview from project person
+client interview
+......................
+BA.....client(end user/customer)
+BA....project manager
+Project mngr---team mngr/team lead
+
+5 developer-------
+5 Tester---3 manual + 2 Automation
+2 DBA
+
+Agile methodology
+stand-up call
+status call
+
+...................
+Eclipse
+jdk-17,21 or 23
+
+java -version
+......................
+java 
+keywords,data type,methods(static)
+Editor---Eclipse,vs code,intillj
+
+class Batch{
+variables 
+methods
+}
+
+additionOfTwoNumber
+Task
+create java project>package>class>print any statment
+................................................
+06Aug
+Project>pckg>class>Variables
+line ends with ;
+
+dataType varName=varValue;
+int age=12;
+
+int - only numeric numbers--DF 0
+float - decimal no df-0.0
+String - sequence of char "1" DF-null
+>>String is a predefined class in java and we can use it is like a data type for our use.
+
+char - only one alphabate ''
+
+int h; declare
+int a=10;  initialization of var
+
+Write down program to print below output
+The Age of student Arya is 8 yrs whose name stats with char a.
+
+Task:
+Write separate programs for addition of 3 numbers, substraction, division and multiplication
+and try to show proper print statement
+
+.................................................
+07Aug
+Method and object
+---void add(){}...........we can say this is a method bcoz of () and {} in front of any name(here is it add).
+---void --- it is return type.Method should have to give return type
+here it is void means it returning nothing.
+>>Object Creation line.
+--we can create object of class only.
+>>ClassName ObjectName=new ClassName();
+ex. Batch obj=new Batch();
+here obj is an object of Batch class
+--Object has capability to hold all data of his class.
+--we can call methods and variables using object.
+
+for ex.
+class Batch{
+void add(){
+//logic here
+}
+psvm(){
+Batch batch=new Batch(); .... object creation line(batch is an object here)
+batch.add();   --- method calling line
+}
+}
+.............................................
+08Aug
+Method return type and parameters
+
+void add(){
+int a=10;
+int b=20;
+int c=a+b;
+syso(c)
+
+}
+
+---if we are passing any type of variables inside a method then we can say that is a parameterize method.
+--while calling parameterize method with object then make sure: 
+>>The sequence of given parameters
+>>The type(data type) of parameters
+>>Number of parameters.
+
+void add(int a ,int g){a=10 g=20//add() is parameterize
+int result=a+g; 10+20
+sop(result)
+
+}
+
+obj.add(10,20);//here method call with same type,sequence and number of param
+
+int add(){
+int a=10;
+int b=10;
+int c=a+b;
+syso(c)
+return c;
+}
+............................................
+11Aug
+revision
+Operators:
+Arithmatic Operators(+,-,/,*)
+c=a+b
+Assignment Operators(+=,-=,/=,*=)
+a=2,b=3
+a+=b>>>a=a+b , a*=b>>>a=a*b
+
+logical Operators:&&, ||
+ must have to give 2 conditions
+&&--both side condtions are true
+(2<5)&&(10>8)
+||--any condition is true then will get true
+(2<1)||(10>8)
+
+t && f>>>>>f
+
+relational Operators(<,>,<=,>=) 
+(6>=3)>>6>3 || 6=3
+...............................................
+12Aug
+Operators
+Note:
+Daily before to start class or after the class:
+1)try to attempt any jbk test based on topics
+2)revise previous topics
+3)not only theoretically practice to write program
+(by taking help of net and yourself) 
+.......
+Equality Operators(==,!=)
+(5==6)...f
+(2!=2)...f
+Unary Operators(increament/decreament)(++,--)
+post increament  4++ and 
+pre increament   ++4
+
+int a=10;
+int b=20;
+a++
+--b
+sop(a)//10  11
+sop(b)
+
+post decreament 3-- and 
+pre decreament --3
+
+Ternary Operators
+(condition)? correct : wrong
+
+bitwise Operators
+...........................
+14Aug
+Scanner cls
+
+if(num%2==0){
+even
+}else{
+odd
+}
+..........................................
+18Aug
+Debugging
+ 
+Ask the user to enter a number
+Read the number using Scanner
+1)Calculate and print the square of  number
+
+2)create a simple calculator that adds and subtracts two numbers:
+
+3)Name: (String)   Age: (int)
+Salary Expectation: (double)
+Willing to Relocate: (boolean)
+Years of Experience: (byte/int)
+Contact Number: (long)
+Languages Spoken: (short)
+......................................
+19Aug
+Conditional Statements
+
+if_else
+nested if
+if(condition){
+//
+}else{
+//
+}
+
+if(3>1){
+sop(AA)
+if(){
+
+}else{
+
+}
+}else{
+sop(KK)
+if(){
+
+}else{
+
+}
+
+}
+
+if(age<5){
+sop(play group)
+}else if((age>5) && (age<=10)){
+sop(pre school)
+}else if((age>10) && (age<=20)){
+sop( school)
+}else{
+sop(not)
+}
+
+if num<50
+
+num which are divisible by 3
+
+marks=user will input
+marks<=35...fail
+marks>35 ...pass
+marks>90 && marks<=100...A++
+marks>80 && marks<=90  ....A
+marks>70 && marks<=80
+.........................................
+20Aug
+for()---have to write 3 statements and separated with ;
+for(assignment;conditionalStat;increment/decreament)
+
+for(int i=1;i<=5;i++){
+sop(i)//i=1,2,3,4,5
+}
+Task:
+print even number from 1 to 50
+for(20 to 30){
+if(even logic){
+print even num
+}
+}
+..................................
+21Aug
+
+do_while
+while
+-------------------------------------
+22Aug
+
+switch_case
+
+switch(7){
+case 2:
+sop(two)
+case 1:
+sop(one)
+case 5:
+sop(five)
+case 6:
+sop(six)
+default:
+sop(choice not matched)
+}
+
+instance variable
+global var
+class level var
+local car
+..........................................
+
+25Aug
+OOPS Concept:
+Inheritance--
+if we want to reuse functionality of existing class in another class by adding some extra functionality.
+
+parent class/super class
+child class/sub class
+
+extends 
+implements
+
+class extends class
+interface extends interface
+class implements interface
+
+Types: 
+Single inheritance
+class A{}
+class B extends A{}
+
+multilevel inheritance
+Class A{}
+Class B extends A{}
+Class C extends B{}
+
+Hybrid inheritance/Cyclic inheritance
+Class A{}
+Class B extends A{}
+Class C extends A{}
+Class D extends A{}
+
+
+Hierarchical Inheritance 
+Class A{}
+Class B extends A{}
+Class C extends A{}
+
+Multiple inheritance
+
+Class A extends  B-m1(),C-m1()
+
+A a=new A();
+a.m1();
+...........................
+28Aug
+Polymorphism........
+
+>>Method overloading-Compile time Polymorphism-static Polymorphism
+--same method name trying to use multiple times within a same class.
+>>>>>>>method name should be same.
+--But for overloading we have to follow some rules:
+1)Number of parameters must be different.
+2)Types of parameter must be different.
+3)sequence of parameters(types) must be different.
+
+class A{
+m1(int a){}
+m1(boolean a){}
+
+m1(String b){}
+m1(int a,String n){}
+m1(string n,int a){}
+}
+>>Method overriding-Runtime Polymorphism-dynamic Polymorphism
+--if we want to use one class method to another class as it is(without changing anything with that method.)
+--without changing anything>Return Type,parameters and method name
+.............................................
+02Sept
+Abstraction-
+--abstract keyword
+--abstract can be methods and classes
+--abstract methods means we cannot implement that methods we have to just declare that method(end with; without {})
+abstract void m1();
+--if we have multiple methods in single class and out of them 1 method as a abstract then we should have to make class as a abstract.
+--we cannot instantiate abstract class/we cannot create object of abstract class.
+
+abstract class Example{
+void m1(){}
+void m2(){}
+abstract void m3();
+}
+
+Class AnotherCls extends Example{
+void m3(){
+}
+
+}
+
+Interface
+--Same as a class but we cannot create object of interface.
+--variables are by default- public static final
+--methods are by default- public abstract
+--using implements keyword we can use interfaces with classes
+
++1, -2
+.....................................................................................
+03Sept
+Encapsulation
+
+Private
+--we cannot access private members outside the class.
+--we have to create getter and setter
+--have to use get() and set() but make sure access specifier must be public.
+
+...................................................
+04Sept
+Packages ,Access specifier
+
+Packages
+--collection of classes and interfaces.
+--in the form of folders
+
+build in package/predefined pckg
+user defined pckg
+
+package
+import
+
+Access specifier
+public ...we can access anywhere
+private...within a class we can use
+protected...subclass of another pckg and same pckg
+default...within a same pckg and subclass
+.........................................
+08Sept
+Constructor
+--it is like a method BUT method name must be same with class name and with no return type.
+--Default constructor:no parameters
+--parameterize constructor:with param
+--once constructor called object will created.
+
+--implicit:automatically, explicit:should have to write manually
+
+--default constructor will call automatically/implicitly while creating an object.
+--default constructor no need to write inside a class.
+--Constructor overloading is possible
+--Constructor overriding is not possible
+--if we create/called parameterize constructor then preference will goes to parameterize constructor only default constructor will  not called.
+
+class Batch{
+void m1(int a){
+
+}
+}
+main(){
+Batch obj=new Batch();
+obj.m1();
+}
+.........................................
+11 Sept
+
+static keyword
+
+--non static and static members.
+
+--static can be block, methods and variables
+static int a=12;
+static void m1(){}
+
+--we no need create object of class  if we wnat to call static members.By using class only we can call static members.
+
+class Batch{
+
+void m2(){
+
+}
+
+static void m1(){
+
+}
+
+main(){
+Batch obj=new Batch();
+obj.m1();
+Batch.m1();
+}
+
+}
+--Static method can access only static members.
+--Non static method allow both static and non static members
+
+static {
+
+}
+Variable
+Local Variable,Instance/class level Variable and static Variable.
+--Always memory will allocates to static members first.
+--one copy storage
+..............................................
+
+12Sept
+Final Keyword
+
+--final can be class,method and variable.
+--final class: we cannot inherite that class(cannot extends that cls)
+--final method: we cannot override 
+--final variable: we cannot reassign(change) value of that var
+
+
+AGE
+
+Can static methods be overridden?
+A6: No, static methods cannot be overridden in Java. Method overriding relies on dynamic binding (runtime polymorphism), which applies to instance methods. static methods are bound at compile time, and the concept of overriding does not apply to them. If a subclass declares a static method with the same signature as a static method in the superclass, it is called "method hiding," not overriding.
+
+..................................................
+16Sept
+
+String
+--String is predefined class in java so we can say it works like an object.And we can use String as a data type to assign string value to any variable.
+--immutable(cannot be change the original value of original string)
+--if we want to change the value of original string then we need to store that new string in a new string var
+--java.lang
+--size of string can get using : length()
+String str="asd";
+str.length();//3
+--Index: starting index= 0 and last index=lengh-1
+
+length()
+contact()
+replace()
+indexOf()
+trim ()
+charAt()
+
+StringBuffer/StringBuilder
+
+--mutable (we can change the value of given string)
+--
+.......................................
+
+19Sept
+Array
+1D 2D
+
+--similar type of data
+--fixed size
+--[]
+--int a[]={2,4,5,6}
+int a[]=new int[5];
+int a[0]=2;
+int a[1]=5;
+int a[2]=5;
+
+....................................
+22Sept
+int a[][]={{2,4},{1,5,7},{8,9}}
+......................................
+24 sept....
+Iterator
+--it is an interface
+--Iterator()...method of arraylist
+--hasNext(),next()
+
+Collection
+--it is an interface
+--java.util
+
+List
+--it is an interface
+--Duplicate elements allowed
+--Null values are allowed
+--length of list: size()
+
+>>ArrayList
+--it is an class
+--Duplicate elements allowed
+--Null values are allowed
+--length of list: size()
+--we can grow and shrink the size of arraylist any time.
+--we can fetch elements using get().
+-- we can add elements using add()
+--unordered manner.
+
+>>LinkedList
+.............................
+25Sept
+Set
+--it is an interface
+--duplicates not allwed
+--null allowd
+--ordered
+HashSet
+--it is an class
+--duplicates not allwed
+--null 
+--
+Map
+
+ArrayList
+LinkedList
+
+
+..............................
+29Sept
+Map
+HashMap
+TreeMap
+HashTable
+.................................
+30Sept
+super,this---
+--super:
+--it refers to super class object
+--super:variable ,method,constructor
+super.var;
+super.method();
+super();
+--it should be 1st line of constructor
+
+This :
+--we refers to current cls object.
+--var,method,const
+this.var
+this.method()
+this()
+....................................
+01_Oct
+Multithreading
+--by extending Thread class
+--by implementing Runnable Interface
+
+method(){
+
+}
+run(){}
+start()
+.............................................
+3_Oct
+File IO...
+
+File
+FileInputStream.........read()...char
+FileOutputStream........write()...byte
+................................................
+06_Oct
+Exception Handling
+
+Object(C)>Throwable(I)>Exception(I),Error(I)
+
+Exception(I)> Unchecked exception(C) and checked exception(C)
+
+Unchecked exception> 
+--it will occurs due to programmers mistake
+--it can solve by correcting in code only
+--run time exception
+--here we no need to handle exception using try_catch block or throws or throw
+
+Checked exception>
+>we cannot resolve that type of exception by correcting in code
+>have to handle using try_catch block or throws or throw
+>its not due to programmer mistake.
+>Compile time Exception
+>its not due to programmer mistake
+
+Try_Catch:
+--one try should follow at least one catch
+
+try{
+//code
+}catch(exceptionName){
+
+}catch(exceptionName){
+}catch(exceptionName){
+}catch(exceptionName){
+}
+
+try{
+try{
+}catch(){
+}
+
+}catch(){
+}try{
+}catch(){
+try{
+}catch(){
+}
+
+}
+...........................
+08_Oct
+Throws and throw
+
+Throws--
+--Implicity
+--it define on method level
+--we can handle multiple exception using throws keyword 
+by separating with ,
+--checked exception
+
+throw:
+--explicitly
+--it define inside a method
+--single exception we can handle
+--unchecked exception
+
+.......................
+08_Oct
+Throws and throw
+Database
+create database DBName;
+
+create table tableName(colName1 datatype,colName2 datatype,....); 
+
+insert into tableName values(colName1Value,....');
+
+
+
+---------------------------------------------------------
+09_Oct
+
+Database
+
+
+Table: bank
+Columns:
+empId int 
+empName varchar(20) 
+empBranch varchar(20) 
+empTotalBal int 
+empAvailableBal int 
+empDebitAmt int
+
+select *from tableName;
+
+select colName from tableName;
+
+where clause
+
+select *from tableName where empId=105;
+
+aggregates functions:
+
+min(colName),max(),sum(),avg()
+
+as : temp rename
+
+
+.......................................
+10_Oct
+MySQL
+
+primary key
+
+like:% _
+order by desc
+
+group by
+distinct 
+
+having
+
+.......................................................
+14_Oct
+Joins
+
+Inner joins /self joins
+--will fetch only matching record or data
+
+Outer Joins
+>>left outer joins: matching data+remaining data from left side table
+>>right outer joins: matching data+remaining data from right side table
+
+Drop,delete,truncate
+
+
+
+-----------------------------------------------
+
+15_Oct
+Update and alter
+
+create>insert>select>delete,drop>update>alter
+
+where clause--condition
+primary key
+
+as
+set 
+
+update tableName set coluName=value where condition;
+
+
+Alter:
+columns add
+Alter table tableName add column columnName dataType;
+
+datatype change/modify
+alter table tableName modify columnName newDataType;
+
+change >>> column name
+alter table tableName change oldColumnName newColumnName varchar(20);
+
+rename >>> table name
+alter table oldTableName rename to newTableName;
+
+primaryKey col add
+ alter table tableName add primary key (columnName);
+
+drop
+ alter table tableName drop columnName;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.....................
+
+DB:Mysql---1week
+JDBC---2day.......................
+Advance java
+Hibernate
+Spring Boot
+Spring Boot-Hiberante configuration
+Spring MVC
+
+2project session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
