@@ -1,0 +1,1203 @@
+02Sept
+Core java+mysql+jdbc+Advance Java
+
+Testing     Manual & Automation-java,selenium
+Development
+Advance Java:
+Hibernate
+Spring boot
+Spring MVC
+
+project session:-online
+
+Batches
+N
+9:30
+Mon-Fri--offline
+Sat---1st,3rd--2nd,4th
+
+mock interview:feedback
+JBK test:
+Demand Test-online test
+Offline test
+Portal access--
+
+technical support
+placement support
+customer support
+
+.....................................
+03Sept
+organisation level
+Aptitude---
+technical
+HR
+offer letter,joining
+..........
+Training-assignment
+...................
+Project
+client interview
+....................
+04Sept
+client..end user..customer
+BA.....BRD
+project manager/scrum master
+Lead 
+Team member...
+developer-5,tester-manual-4 & Automation-2,web designer/UI,DBA
+
+Agile methodology
+stand up call
+status call--9hrs
+
+KT-
+
+
+................................................
+08Sept
+Installation
+Editor- Eclipse
+jdk- 17/21/23
+
+Basic
+
+class Batch{
+
+variables
+methods
+System.out.println("");
+}
+
+java project>package>class>coding
+
+
+BatchN20_CoreJava
+
+batch n20 core java
+
+variables
+datatype varName=varValue;
+
+int age;
+int age=10;
+
+int-10, string,boolean,float-10.2,char
+..........................................
+09Sept
+Data types
+Access specifier
+
+int =20
+
+int age=20;> Numeric only> default value-0
+
+float d=3.9;> Decimal num
+
+char ch='g';> single alphabet and must be enclosed in ''
+
+String s="";> sequence of chars and must be enclosed in ""> default value-null
+
+Boolean v=false;>only true and false values>default value-false
+
+
+public private protected default
+
+returnType methodName(){}
+
+void addition(){
+//logic
+}
+
+Object creation:
+
+className objectName = new className();
+
+Task:
+
+create assignment project and perform below 2 task in 2 packages
+
+//Create separate classes for logic addition,multi,division,substraction 
+//write down addition,multi,division,substraction in a single class using methods
+
+.........................................
+11Sept
+Methods Return Type
+paramters
+
+class Try{
+void m1(int a){
+sop("print value of a: "+a);
+}
+Try t=new Try();
+t.m1(11);..........................
+}
+
+
+String m1(){
+
+return "5";
+}
+--return statement must have to ifwe use return type of method other than void(i.e int string char & so on)
+--return statement should be last statement of method block.
+--return value must matched with return type of method.
+
+...................................................
+12Sept
+Scanner
+2 task without scanner and with scanner(MON)
+Create new assignment project
+create class and write down program for all operations(+,-,*,/) in a single class
+note:
+1)method should have retrun type (not void)
+2)method should have some parameters
+3)+,-,* not only on two numbers...must have operations on three numbers.
+4)output should have numbers ,opration name and result in a proper way
+
+NOTE: Values Should enter from User not by coding.
+
+Scanner
+--java.util pckg
+--it is a pre defined class in java
+--if we want to enter values from user's end
+--there are some method:---
+--user will enter values on system(console)
+--System: java.lang  pckg
+
+-------------------------------------------------
+15Sept
+Operators:
+
+--attempt any jbk test
+--revise previous topic
+--try to write any program based on your logic
+
+Arithamtic Operators(+,-,*,/)..........a+b
+Assignments Operators(+=,-=,*=,/=)
+a+=b........a=a+b
+
+Relational Operators(<,>,<=,>=)
+logical Operators(||,&&).....
+
+(2<1)&&(5>9)
+
+T T >T
+T F>F
+F T>F
+F F>F
+
+OR ||
+(2<5)||(5>9)
+
+T T >T
+T F>T
+F T>T
+F F>F
+
+10>=9........10>9 OR 10=9
+
+Unary Operators/increament/decreament Operators(++,--)
+increments
+post increament a++ 5++
+pre increament  ++a ++5
+
+decreament
+post decreament a--
+pre decreament  --a
+
+Ternary Operators..........if_else
+
+(Expression/condition) ? correctPart : wrongPart
+
+(10<20) ? u can go : u cannot
+
+
+bitwise Operators
+~a;
+
+equality ==,!=
+.....................................
+18Sept
+
+Conditional state......
+
+if
+if(condition/expression){
+
+}
+....
+...
+
+if_else
+
+if(condition){
+sop()
+}else{
+sop()
+}
+
+Nested if_else
+
+if(condition){
+sop()
+	if(condition){
+	sop()
+if(condition){
+sop()
+}else{
+sop()
+}
+	}
+}else{
+sop()
+if(condition){
+sop()
+}else{
+sop()
+}
+}
+for()
+
+while()
+switch-case
+do_while()
+
+
+task: check odd/even till 150 number and if number is greater than 150 then show msg 
+
+Check whether given char is vowel or consonant.
+o
+a,e,i ,o ,u ...vowel ||
+consonant
+
+if(a<=150){
+odd/even logic
+}else{
+sop(grater than 150)
+}
+....................................................
+19Sept
+for()
+
+3TSatements
+
+for(assignment(start);condition(end);increament/decreament)
+
+for(datatypeOfVar assignment;condition;increament/decreament)
+
+for(int a=5;a<9;a++){
+
+sop(a)//1,2,3,4,5,6,7,8,9,10
+
+}
+
+for(int d=9;d>=0;d--){
+sop(d)//9,8,7 6 5 4 3 2 1 0
+}
+
+Debugging...............
+
+.................................
+
+22Sept
+while
+do_while
+switch_case
+
+for(int i=1;i<=7;i++)
+
+int i=1;
+while(i<=7){
+i++;
+}
+
+switch (4){
+case 3:A
+case 4:H
+case 1:C
+default:P
+
+
+}
+........................................
+24Sept
+oops concept
+
+
+Inheritance:
+
+--parent class/super class and child class /sub class
+--we can connect two classes/interfaces using extends and implements keyword
+
+class ParentCls{
+m1(){
+logical code
+}
+m2(){
+logical code
+}
+}
+class ChildCls extends ParentCls{
+m4(){
+logical code by adding our extra code
+}
+m3(){
+logical code
+}
+psvm(){
+ChildCls obj=new ChildCls();
+}
+}
+Types:
+multilevel inheritance
+class A{}
+class B extends A{}
+class C extends B{}
+class D extends C{}
+
+multiple inheritance
+--in case of class it is not allowed in java.
+class A{ m1()}
+class B {m1()} 
+class c extends A,B{
+m1()
+}
+--in case of interfaces is allowed in java.
+interface A{}
+interface B {} 
+class c implemets A,B
+
+
+hybrid inheritance/cyclic inheritance
+hierarchical inheritance
+
+...............................
+25Sept
+Inheritane Logical part
+
+polymorphism
+--method overloading/compile time polymorphism
+--same method name use in multiple times within a class(same class) by changing parameter-
+Rules for changing parameters-
+1)must be change sequence of param.
+2)must be change number of param.
+3)must be change Type of param.
+.........................................
+26Sept
+
+>>method overriding/ runtime polymorphism
+--same method of one class if we trying to use AS IT IS in another class then we can say its method overriding
+
+abstraction
+--abstract keyword
+--abstract can be class, method  
+--we cannot instantiate(cannot create object) abstract class
+--there is no need of implementation of method if we declared method as an abstract.(ends with ;)
+--if we declare any num of methods as an abstract in class then make sure that class should be abstract.
+--abstract class allows both methods abstract and normal methods.
+--Normal class done not allow abstract method.
+
+abstract void m1();
+void m2(){}
+
+abstract class Try{
+
+void m2(){}
+
+void m3(){}
+
+abstract void m4();
+
+void m10(){}
+
+
+}
+........................................
+29Sept
+Interface
+--it is a blue print of class
+--static, final keyword
+--methods and variable
+--methods:
+only public abstract
+void m4();
+--variable:
+only public static final
+--if we wants to inherit interface then need to use implemets keyword.
+
+--class-class:extends
+--class-interface:implemets
+--iterface-interface:extends
+
+encapsulation...........remaining
+--------------------------
+30Sept
+Revision OOPS concept
+
+extends implements
+
+class A{
+m1(){}
+}
+class B extends A{
+m1(){reuse m1() by adding extra code}
+}
+
+hierarchical inheritance
+class A{}..........utility cls
+class B extends A{}
+class C extends A{}
+
+Hybrid inheritance/cyclic 
+class A{}
+class B{}
+class C extends A,B{}
+class D extends C{}
+class D extends A{}
+
+MAX 20-30min...........45mins
+polymorphism: 
+Method overloading-compile time poly
+
+same method name use multiple times within a same class by changing param-Type,sequence,number
+
+Method overriding-runtime poly
+
+same method name use outside a class as it is.
+no change in param,RT and method name
+
+Abstartction
+cannot instantiate /we cannot create obj of abstract
+abstract keyword
+class,method
+
+abstract class A{
+int a;
+m1(){}fk
+abstract m2();
+}
+
+Interface
+Method----by default public abstract only
+Variable---by default public static final only
+
+Encapsulation:
+public 
+private
+class A{
+private int a;
+private void m1(){}
+
+}
+
+class A{
+private int a;
+private int b;
+//getter and setter
+ public getA()
+ public setA()
+public getB()
+ public setB()
+}
+....................................
+01_Oct
+Constructor
+--constructor name same with class name
+--constructor does not have any type of return type
+--Type:
+Default constructor
+parameterized constructor
+--once constructor called object will create.
+--default constructor will call implicitly(no need to write in program) once object will create.
+--constructor overloading is possible in  java.
+--constructor overriding is not possible in java
+
+class Batch{
+void m1(){}
+void m1(int a){dchvm}
+
+Batch(){}
+Batch(int a,int b){}
+Batch(int a,String b){}
+
+psvm(){
+Batch obj=new Batch(80);
+obj.m1(20);
+}
+}
+
+.........................................................
+03_Oct
+Online Test based on covered topics and aptitude
+
+Offline N20 Test1
+.......................................
+06_Oct
+
+static
+---keyword in java
+---block, methods and variables can be static
+---we no need to create object of class to call  static members
+---we can call static members using class name.
+---memory will allocates to static members when class loaded
+---after creating object memory will allocates to non static members.
+---1st  preference will goes to static members only while executing a program.
+---static method can allow only static members(var).
+---one copy storage/single copy storage
+class Batch{
+void m2(){}
+static void m1(){}
+static int a=20;
+
+psvm(){
+Batch obj=new Batch();
+Batch.m1();
+Batch.a;
+obj.m1();
+obj.a;
+}
+{
+
+}
+static{
+
+}
+
+}
+
+......................................
+07_Oct
+Final..
+--keyword
+--final can be class,method and variables
+--final class: we cannot inherit(extends)
+--final method: we cannot override
+--final variable: we cannot reassign(change the value)
+...................................
+08_Oct
+String
+--It is predefined class in java.
+--we can use String as data type.
+--" gfj "
+--String is an immutable(we cannot change the original string value)
+--concat(),replace(),indxOf(h),charAt(3),trim()
+--size of string we can get using length().
+--index: starting index- 0 and last index- (lenght-1)
+--
+---------------------------------------------
+09_Oct
+StringBuffer , StringBuilder
+---
+--mutable(we can change original string value)
+--predefined class(we cannot use both as a data type like String)
+--predefined methods
+reverse()
+
+----------------------------------------
+10_Oct
+super this
+super-
+---it is a keyword
+---it refers to super class object
+---super can be method,var and constructor
+---super() should be 1st line inside a constructor
+method:
+super.method()
+super.var
+super()
+
+this
+---it is a keyword
+---it refers to current class object
+---it can be use to differentiate local and global var
+this()
+
+public class A {
+public static void main(String[] args) {
+String a=”JBK”
+System.out.println(a);
+}
+}
+
+
+-----------------------------------------------------
+13_Oct
+Array
+--[] 
+--It a collection similar type of data
+--size fixed
+--we cannot change once assign size of an array.
+(we cannot shrink and grow size of array as per our requirement).
+--size of array we can get with length property
+--start index-0 last index-length-1
+
+String str="asd";
+str.length();
+
+DataTypeOfArray nameOfArray[]={elements of an array};
+int a[]={2,5,3,6};
+a.length;--4
+
+DataType aa[]=new DataType[sizeOfArray];
+int aa[]=new int[3];
+a[0]=2;
+a[1]=4;
+a[2]=6;
+a[3]=7;
+............................................
+14_Oct
+Array - 2D
+
+int a[]={2,5,3,6};
+
+int a[R][C]={{3,5,6},{3,7},{1,7,3,9}}
+
+-----------------------------------------------------
+15_Oct
+
+Offline Testcore java till Array
+..........................................................
+16_Oct
+file io
+File........path of file
+FileInputStream.........read().......char
+FileOutputStream........write()......bytes
+
+............................................................
+27Oct
+Revision based on coverd topics:
+Java
+Platform independent/dependant? why?
+JRE,JDK,interpreter,compiler
+why do u want to go in java only?
+difference bet java and other(python)
+........................................
+
+class Example{
+class members(methods AND VARIABLE)
+VARIABLE:
+datatype varName;
+int b=20;
+final int a=10;
+abstract void m1();
+void m2(){
+int a=10;
+int k=30;
+int c=a+k;
+syso(c);
+}
+String m3(int a,String j){
+
+return "2";
+}
+psvm(){
+Example obj;
+Example obj=new Example();
+obj.m3("fghgh",20);
+}
+
+
+}
+..........................
+package
+
+package: 
+--collection of multiple class with same category
+--must be first line of class
+--will use in user defines package/class
+import:
+
+...............................
+28_Oct
+revision on core java
+Exception Handling
+
+Exception:
+In Java, an exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions. It is an unexpected or unwanted event that can lead to program termination if not handled properly. 
+..............
+
+29_Oct
+Exception Handling
+
+try_catch block
+.........
+try{
+
+}catch(){
+
+}
+.............
+try{
+
+}catch(){
+
+}catch(){
+
+}catch(){
+
+}
+....................
+try{
+	try{
+
+	}catch(){
+
+	}
+
+}catch(){
+try{
+
+}catch(){
+
+}
+}
+throws:
+method level exception,it can be implicitly handle exception,
+we can handle multiple exception in a single line
+throw:inside a method,it can be explicitly handle exception
+throw and throws keyword
+
+
+
+.........................................................................
+03Nov
+Offline Test
+Covered Topics
+50Que
+............................................................................
+
+04 Nov
+multithreading--
+
+2ways---
+>>by extending Thread class
+>>by implementing Runnable interface
+run()
+start()
+
+...........................................................................
+05Nov
+Collection
+---framework
+---List,Set,Map
+---java.util pckg
+List:interface
+
+Arraylist:Class
+--duplicates allowed
+--null allowed
+--can add elements using add()
+--can fetch element using get()
+--we can add, remove elements as our requirement
+--we can get length of list using size()
+--start index=0 / end index=length-1
+--ordered manner
+
+Arraylist,linklist
+...................................
+06Nov
+Set
+--duplicates not allowed
+--null allowed
+HashSet,TreeSet
+HashSet:
+--duplicates not allowed
+--null allowed
+--can add elements using add()
+--unorderd
+
+TreeSet:
+--ascending order
+--null not allowed
+--duplicated not allowed
+
+..........................................................
+07Nov
+Map....Interface
+--values store in key-value pair
+--unique keys 
+--null allowed/not allowed
+--values can add using put()
+HashMap,TreeMap,HashTable...........classes
+
+HashMap:
+--values store in key-value pair
+--both keys and values can be null
+--duplicate key not allowed(unique keys )
+--duplicate value allowed
+--keys are unorder manner and will shoe corresponding value.
+
+TreeMap:
+--null key not allowed.
+--keys are ordered manner
+HashTable:
+--null key not allowed.
+--null value not allowed.
+--keys are unorder manner
+
+keySet().........store keys.....get(key)
+values().........store values
+entrySet().......both keys and values can store
+getKey() and getValue()
+
+..................................
+12Nov
+Database
+MYSQL
+.........................
+13Nov
+database will create:
+create database databaseName;
+
+mention specific database name;
+use databaseName;
+
+Table create in database:
+create table tableName(colName datatype,......);
+
+Data will add in table:
+insert into tableName values(valueOfCol,.....);
+
+Fetch the complete data from table:
+select *from tableName;
+
+fetch specific column data:
+select columnName from tableName;
+
+where clause
+select *from tableName where coluName=value;
+
+......................................
+14Nov
+Aggregate functions
+
+sum(),min(),max(),avg()
+update------set....only can update column data
+
+primary key column......unique data column
+
+delete,drop,truncate
+
+Alter:
+--we can add,modify,drop,change column with alter query.
+--we can rename tableName with alter.
+
+   1) ALTER TABLE table_name ADD new_column_name datatype [constraints] [FIRST | AFTER existing_column];
+
+   2) ALTER TABLE table_name MODIFY COLUMN column_name new_datatype [new_constraints];
+
+   3) ALTER TABLE table_name DROP COLUMN column_name;
+
+   4) ALTER TABLE table_name CHANGE COLUMN old_column_name new_column_name datatype [constraints];
+
+   5) ALTER TABLE old_table_name RENAME TO new_table_name;
+
+
+
+...............................................
+17_Nov
+Group By and Having in
+
+
+.........................................
+18Nov
+JOINS
+
+Create 2 tables
+Make Primary key column in both table
+
+Account accId,accName,accType - 11,22,33,44,55
+
+and 
+
+bank accId,bankBranch,bankAdderss - 111,222,11,55,333
+
+--if we want to fetch data from multiple table within a single query.
+
+--primary key must.
+--combine data from from multiple table into a single query.
+--sub query...join performance better than sub query.
+JOINS:
+Inner Join/self join
+--Inner joins is used to fetch data/rows/records from both tables that specify the given condition.(only matching data will fetch)
+syntax: 
+select columns(from both tables) from tableName1 , tableName2 where condition;
+
+Outer join:
+left Outer join
+--will fetch all records/rows/data from the table both table and complete remaining data from left side table.
+ if no matches found then will place value null.
+syntax: 
+select columns(from both tables) from tableName1 left outer join tableName2 on condition;
+
+right Outer join
+--will fetch all records/rows/data from the table both table and complete remaining data from right side table.
+ if no matches found then will place value null.
+syntax: 
+select columns(from both tables) from tableName1 right outer join tableName2 on condition;
+
+
+full -----------no
+
+..............................................................
+19Nov
+JDBC
+Java database connectivity
+
+jar----colletion of class
+
+mysql-java-connector jar
+username,password and url.....MySQL database
+connection
+statement create
+execute
+ResultSet....row and col
+itration
+
+executeQuery()........select
+executeUpdate().......other than select query if u want to use then executeUpdate() will use.
+................................
+20Nov
+Prepared Statement
+? placeholder
+executeQuery()...........select
+executeUpdate()..........
+
+
+difference create state and prepared statement......
+
+
+.....................................................
+26Nov
+Maven
+build mgnt tool/project mgnt tool
+-- .m2 folder
+--pom.xml 
+--well structure folder
+--no need jar
+--add dependencies
+--
+Repository:
+
+local repo-,central repo- public ,remote repo-orgnisation
+
+......................................
+27Nov
+Hibernate-ORM
+
+-create maven project
+-add dependencies--MySQL,hibernate-core
+-hibernate.cfg.xml------configuration code
+-entity class - create getter setter,default constructor+param const,toString()
+--client class:
+>configuration>configure()
+>annoted class add
+>session factory
+>session open
+>load(),save(),saveOrUpdate(),delete()
+
+--data fetch- load()---select
+--insert data -save()---insert
+--update data - saveOrUpdate()
+.....................................
+28Nov
+Hibernate save() and saveOrUpdate()
+
+Transaction..........beginTranscation()
+commit()
+...........................
+01Dec
+Query
+
+Criteria........createCriteria()
+Restrictions class....use methods to give some specific conditions on badatase
+list()
+for()
+.......
+
+
+02Dec
+Query:
+--using load() we cannot fetch multiple records at a time.
+--using load() can fetch single record only bcoz of primary key.
+
+--if we want to fetch multiple record then have to use Query concept.
+
+--with Query we have to write MySQL query in script.
+
+---createQuery()
+list()
+......................................
+03Dec
+Spring Boot
+---it is a framework
+--automatically configure tomcat server and will start,stop as per requirments
+--RESTful API's
+--http request and status code
+
+--Fast Development: Quickly build production ready apps with minimal configuration.
+--Auto-Configuration: Reduces boilerplate code, you can focus on business logic.
+--Microservices Friendly: Perfect for building and managing distributed systems.
+--Seamless Integrations: Works easily with databases, security, messaging and cloud platforms.
+--Wide Adoption: Backed by Spring ecosystem and used in real world enterprise applications.
+
+........................
+Steps to create spring project:
+
+1)search for "spring initializr: "https://start.spring.io/
+2)add details and 
+3)add dependencies: spring web and dev tool
+4)Genarate
+5)extract zip
+6)import spring project in editor
+7)start application.
+
+.............................................
+
+HTTP status code:
+
+>>1xx Informational
+>>2xx Successfull
+>>3xx Redirection
+>>4xx Client Error
+>>5xx Server Error
+
+struts 2.0
+servlet-jsp
+
+postman
+
+............................................
+04Dec
+SB
+Controller cls
+--@RestController in controller where API's present
+--have API in this cls
+
+---mapping..CURD operation
+GetMapping  .... get()
+PostMapping .....post()
+Putmapping ..... put()
+DeleteMapping.....delete()
+
+JSON format
+
+URL
+//localhost:8080/(endpoint)
+...........................................
+05DEC
+Spring Boot
+post mapping..to add data in the form of json format
+post()
+body
+
+className object=new className();
+
+Controller---API
+Service -----buisiness
+Dao----------DB
+
+@Autowired
+className object;
+
+......................................................................
+
+08Dec
+Spring Boot
+
+1)Create spring project
+2)Create entity
+3)Create Controller,Service,Dao in separate pkg
+3)Controller--RestController
+Service- Component or Service
+Dao- Repository
+
+
+@RequestParam
+
+.........................................................................
+09Dec
+Spring boot - Hibernate configuration
+
+1)Create spring project
+2)Create entity
+3)Create Controller,Service,Dao in separate pkg
+Controller--RestController
+Service- Component or Service
+Dao- Repository
+4)properties file-datasourse and MySQL
+5)Entity annotations
+6)pom.xml.......JPA and MySQL dependencies
+spring-boot-starter-data-jpa
+
+spring.datasource.url=jdbc:mysql://localhost:3306/dbname?createDatabaseIfNotExist=true
+..................................................................
+10Dec
+Spring MVC
+
+1)Create spring project
+2)Create entity/Model cls
+3)Create Controller, Service, Dao in separate pkg
+Controller--@Controller
+4)properties file-jsp file path
+5)pom.xml.......
+tomcat-embed-jasper, javax.servlet-api
+6).jsp file>>>>main>webapp>WEB-INF>pages>.jsp file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
