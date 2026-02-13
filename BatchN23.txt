@@ -1,0 +1,829 @@
+Batch N23
+.................
+Start date 17Nov_by Ankit
+.................
+22Dec
+Desccussion_Basic Que_Ans
+................
+23Dec
+OOPs
+Inheritance
+
+--It use to reuse existing functionality/logic of parent/super class in child/sub cls by adding extra functionality/logic. 
+--
+
+Parent /Super cls
+Child /Sub cls
+
+Communication between Two (or more) class
+--extends and implements
+--extends
+>both are classes 
+>both are interface
+
+--Implements
+>one is cls and another is interface
+
+class FirstParent{
+m1(){sop(1)}
+}
+m2(){sop(4)
+}
+Class SecChild extends FirstParent{
+m1(){
+sop(3)
+sop(2)
+}
+m3(){sop(5)}
+PSVM(){
+FirstParent obj1=new FirstParent();
+obj1.m1();//1
+obj1.m3();//Error
+SecChild obj2=new SecChild();
+obj2.m1()//3,2
+obj2.m3()//5
+}
+FirstParent obj3=new SecChild();
+obj3.m1();
+}
+Types of inheritance:
+Single inheritance
+multilevel inheritance
+hierarchical inheritance
+Cls parentCls{}
+cls sub1 extends parentCls{}
+cls sub2 extends parentCls{}
+cls sub2 extends parentCls{}
+
+multiple inheritance
+--not allowed in java in case of classes BUT
+it is allowed in case of interface.
+
+Cls parentCls1{m1()}
+Cls parentCls2{m1()}
+Cls parentCls3{}
+cls sub1 extends parentCls1,parentCls2,parentCls3{}
+
+hybrid inheritance/cyclic
+--not allowed in java
+
+combination of multiple,multileve
+........................
+24Dec
+Polymorphism
+compile time Polymorphism
+run time Polymorphism
+
+Or
+ 
+Method Overloading
+Method Overriding
+
+Method Overloading
+--if we trying to use same method name in same class multiple times then can say there is Method Overloading
+BUT there some rules to make Method Overloading:
+>>>void m1(int a ,String s){}
+
+1)sequence of parameters should be change.
+void m1(String s,int a){}
+2)Type of parameters should be change.
+void m1(int s,int a){}
+3)number of parameters should be change
+void m1(int s,int a,String s){}
+
+
+...................
+Method overriding
+--if we want to use same method(as it is) of one cls in another class.
+same method have to have  use in another cls but we can change the logic or block of code can be change.
+
+cls First{
+void add(){
+SOP(1)
+}
+}
+cls Second extends First{
+void add(){
+SOP(1)
+}
+}
+..............................
+25Dec
+Abstraction
+--hiding data,secure data
+abstract...
+--it is a keyword
+--we cannot instantiate(create object) of abstract cls
+--method  and class can be abstract
+--abstract method 
+>>there will be no method implementation(no body{})
+>> abstract void m1();
+abstract class Batch{
+void m1(){}
+void m2(){}
+void m3(){logic}
+abstract void m4();
+void m5(){}
+}
+--if we have created one method as an abstract out number of method then we should have to make class as an abstract.
+--oprations cls
+--add(addition){},multi(mutiplication),abstract details(logic not clear yet).
+
+class ownCls extends Abc{
+
+details(){
+logic
+}
+}
+........................
+Interface
+--it is a blue print of class.
+--Interface does not have constructor.
+--we cannot create object of an Interface.
+--Methods by default are public abstract only
+--Variables are by default public static final only
+>>>>multiple inheritance
+--not allowed in java in case of classes BUT
+it is allowed in case of interface.
+...........................................
+
+26Dec
+Final
+--class,method and variables can be final.
+--if class is final
+>>we cannot inherite(extends) final class
+--if variables are final
+>>we cannot reassign(change)the value of final var.
+--if methods are final
+>>we cannot override final methods
+
+Remaining topics of core java
+..................
+29Dec
+super ,this
+--both are keyword in java
+super
+--it refers to super cls obj
+--we can use super with
+>>variables--super.varName;
+>>constructor--super()
+>>methods---super.methodName()
+
+class Batch{
+public Batch(){}
+public Batch(int a){}
+void Batch(){}
+Batch obj=new Batch();
+}
+class Try extends Batch{
+public Batch(){}
+public Try(){}
+super()
+
+}
+this
+--it refers to current class obj
+--can use with var,method,const
+--it differentiate local and global var
+..................................................
+30Dec
+String
+--it is pre defined class in java
+--it work like a data type
+String str="gfhjgmhv";
+--it is an immutable(we cannot change the value of original string.)
+>>if we want to apply any operations on original string then we should have to store new value in another string var.
+--for programming we mostly use methods of string class
+--length of string can be calculated using length().
+Core
+length=4
+start index=0
+end index=length-1
+
+.............................
+31Dec
+StringBuffer
+StringBuilder
+
+--mutable(can change the original value of string)
+--class
+--
+Ashutosh Rathod	
+2ashurathod@gmail.com
+Saurabh Sonare	
+saurabhsonare02@gmail.com
+Snehal Golam	
+snehalngolam58@gmail.com
+
+Video call link: https://meet.google.com/dcn-pudv-gmp
+'''''''''''''''''''''''''''''''''''''''''''''
+02Dec
+Array
+>>1D Array
+
+--It is collections same type of data
+--size is fixed
+--we cannot grow and shrink size of array as per our requirments.
+--[] 
+--we get the size of array using length property.
+Define:
+int a[]={1,2,3}
+a.length;
+--
+>>2D Array
+--row ,col
+--
+...................................................
+06Jan
+
+Exception Handling
+
+--During execution of program unwanted or unexpected problem occurs that means its an exception.
+--if we faced exception at any line then from that line execution will be stopped.
+Class Abc{
+line1
+line2
+line3................Exception
+line4
+}
+--to continue our complete program if we faced exception then that type should have to handle it using try_catch block or throws or throw keyword.
+Object
+>Throwable(I)
+>Exceptions(I)
+>>Checked and Unchecked Exceptions(classes)
+
+Checked Exceptions:
+--it occurs compile time 
+--it is not due to programmer mistakes.
+--this type of exceptions should have to handle using throws or try-catch block.
+--we cannot solve it with correcting in our code
+Ex- InterruptedException,IOException,
+
+Unchecked Exceptions:
+--it occurs run time
+--it is due to programmer mistakes.
+--this type of exceptions no need to handle using throws or try-catch block.
+ArrayIndexOutOfBoundException,ArithmaticExcption,nullPointerExcept
+
+How to Handle Exception:
+>>>Try_Catch block
+>>>throws,throw keyword
+
+try{
+Exception Code
+}catch(exceptionName){
+
+}
+
+try{
+}catch(){}
+catch(){}
+catch(){}
+
+try{}
+catch(){}
+try{}
+try{}catch(){}
+catch(){}
+
+...........................................
+07Jan
+throws,throw keyword:
+throws
+--at method level
+--it is implicitly(automatically) define
+--can handle multiple exception in single line just separated by comma
+throw
+--inside  method
+--explicitly(manually) define
+--can use single exception instance with any msg.
+--allow in both exception(checked and unchecked)
+
+Collections:
+--it like a frameworks
+--collection of pre-defined classes and interface
+--Use:it helps to improve productivity by writing code more reusable,maintable and faster to develop.
+--java.util
+--we can get the size using size()
+
+>>List
+>Arraylist,linkedlist,vector-classes
+--it is an interface
+--it allowed duplicate data
+--null allowed
+--we can add elements using add()
+--we can get the size using size()
+Arraylist:
+--it is a class
+--it allowed duplicate data
+--null allowed
+--we can add elements using add()
+--we can get/fetch elements using get()
+--we can get the size using size()
+--ordered collection
+--we can change the size of ArrayList as per our requirement
+--size is not fixed we can change the size of AL.
+................................................
+08Jan
+>Set
+--Interface
+--duplicate data not allowed
+--unique data only
+--null allowed/not allowed
+--ordered/unorderd
+--can add data using add()
+
+>>HashSet,LinkedHashSet,TreeSet
+HashSet:
+--class
+--duplicate data not allowed
+--unique data only
+--null allowed
+--unordered
+--can add data using add()
+......................................
+09Jan
+>Map
+--it is an interface
+--it store key-value pair data
+--we can add data using put().
+--orderd/unorderd
+--null allowed / not allowed key-value
+--key unique(duplicate not allowed)
+--value can be duplicate
+--can get length using size()
+>>HashMap,HashTable,TreeMap
+
+HashMap
+--it is class
+--it store key-value pair data
+--we can add data using put().
+--ordered 
+--null allowed both key & value
+--key unique(duplicate not allowed)
+--value can be duplicate
+--can get length using size()
+
+>>keySet()-----it will store keys
+get(key)....value
+>>values()-----it will store values
+>>entrySet()----it will store both keys and values
+getKey() and getValue()
+
+1-a
+2-f
+3-e
+2-r
+
+HashTable:
+Both key and value null not allowed
+
+TreeMap:
+null key not allowed
+null value allowed
+sorted mannaer
+
+
+
+int-0
+string-null
+boolean-false
+
+............................................................
+12Jan
+Multithreading
+--multiple task will execute at a same time that means we can say multithreading
+--Thread:
+it is small unit of execution of program.
+--performance speed will improve.
+--cpu utilisation use
+
+Multithreading will be happen using programing in two ways:
+1)By extending Thread class
+2)By implementing Runnable interface.
+
+Thread:
+run()
+start()
+
+Runnable:
+run()
+
+life cycle thread:
+run().......new thread
+Start()...ready to execute/start
+runnable...
+sleep/wait....
+dead.......
+stop()
+run()
+
+.........................................
+13Jan
+file IO
+Debugging
+
+File......mention path of file
+FileInputStream......read data from file
+read()......
+char 
+FileOutputStream.....write data into file
+write()
+getByte()
+
+Debugging
+Lambda
+
+......
+19Jan..
+
+MySQL---DB
+installation
+
+........................
+20Jan
+
+Database>table>columns>data
+Database:
+create database dataBaseName;
+use dataBaseName;
+create table tableName(colName1 datatype,colName1 datatype);
+
+insert into tableName values(colValue1,.....);
+>>sequence of columns should be match with values
+>>number of columns should be match with values
+>>DataType of columns should be match with values
+>>one insert query will add one record(row)
+
+>>We can add multiple recoreds using insert
+insert into tableName(colValue1,.....)values(values1),(values2);
+
+--To fetch data from table
+Select *from tableName;
+.----------------------------
+21Jan
+Select colName from tableName;
+
+where clause
+>>to fetch specific row data.
+select *from tableName where (condtional state)
+
+as
+>>temp rename
+
+primary key
+>>column
+>>duplicate data not allowed
+>>unique data
+
+.....................................................
+22Jan
+
+delete,drop,truncate(Task)
+delete>>can delete specific row data
+drop>>permantly delete from  dtabase
+truncate>>
+
+Aggregate functions and Alter
+
+Aggregate functions:
+count()>>Number of records
+sum()
+avg()
+min()
+max()
+
+Alter:
+>>we can modify or can do changes in existing table
+
+>>add column
+alter table tableName add COlumnName dataType;
+
+>>modify col--datatype
+alter table tableName modify column COlumnName newDataType;
+
+>>drop col
+alter table tableName drop column COlumnName;
+
+>>rename col
+alter table tableName rename column oldColName to newColName;
+
+>>rename table
+alter table tableName rename to newTableName;
+
+>>add primary key
+ alter table tableName add primary key(colName);
+
+.........................
+23Jan
+Joins:
+--if we want to fetch data from two or more table in a single query.
+
+inner joins:
+--match records from both.
+outer joins:
+--right outer joins  
+matching data + all remaining data from right side table
+--left outer joins
+matching data+ all remaining data from left side table
+.........................
+
+group by
+--aggregate function
+
+--having
+
+like %
+
+....................................
+28Jan
+JDBC-java database connectivity
+--will connect backend and database
+jar...
+--it is the collection of classes.
+mysql-connector-java.jar
+.........
+Statements
+Prepared Statements
+
+1)create connection
+2)create statement....write query
+3)execute query
+4)submit----result set
+5)close connection
+
+url,username,pswd,query
+
+getConnection(url,username,pswd)...
+createStatement()
+executeQuery()....select
+executeUpdate()....
+resultSet()......rows and column
+getInt()...
+getString()
+
+Statement
+prepareStatement
+
+?---placeholder
+...................
+group by-having in
+JDBC
+...................................
+02Feb
+Advance java
+maven
+
+java project
+maven project..
+--build mgnt tool/project mgnt tool
+--proper structure of folders
+--using maven its easy to maintain framework of project for developer
+--configuration related code include in one file only pom.xml.
+--configuration- dependencies
+--for reporting also maven is in use.
+--no need to download jar and configure in maven project like java project
+--no need to remove dependency from pom.xml if its not working. we can directly change version of dependency from pom.xml.
+--.m2 folder will create automatically when we will create maven project.
+>>>there 3 types of repository:
+
+local repo....personal
+central repo...public
+remote repo....organisation level
+....................................
+03Feb
+Hibernate
+--add hibernate-core dependency in pom.xml
+--to work with database(works like jdbc)
+--ORM
+--configuration....hibernate.cfg.xml...key-value data
+--entity class----match with ur table from given database
+
+@tablename
+@columname
+select
+load()
+save()
+saveOrUpdate()
+.................................................
+04Feb
+
+load()-----to fetch data from given table
+........
+
+Congiguration...class...to connect with cfg.xml file
+configure()....will check cfg.xml and make connection
+addAnnotedClass()
+session factory.....
+session
+load(entityName,primary key)..........select
+
+save().......to insert data into table
+saveOrUpdate()......to update data in table and insert
+
+Transaction 
+beginTranction()
+commit()
+
+SpringBoot
+SpringMVC
+git
+https://javabykiran.com/jbkcrm/admin/login
+
+
+
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+----------------------------------------------------------------
+05Feb
+<,>,=
+where clause
+Criteria
+criteria.(Restrictrions)
+
+Restrictrions.eq()
+criteria.list()
+
+interate
+for_each
+
+.......................................
+SpringBoot...
+
+API
+postman tool
+Json format
+brower
+
+@GetMapping()
+login(){
+//code
+}
+
+HTTP REQUEST....get(),post(),put(),patch(),delete()
+HTTP CODE
+100: Information · 200: Successful · 300: Redirection · 4xx: Client Error · 5xx: Server Error
+
+Spring BOOT
+
+spring intilizer
+
+--------------------------------
+07Feb
+@SpringBootApplication
+@RestController
+Struts1.0
+2.0
+
+SpringBoot
+...........................................
+09Feb
+SpringBoot
+@postMapping---@requestBody.......post()
+postman:
+body>raw>json>add data in format of json
+
+
+If you want to fetch selected data from database
+@getMapping---@requestParam
+
+Controller.....@restController>>API's
+Service........@Componant OR @Service>>Buisness related logic
+Dao............@Repository>>>Database related logic(Hibernate/JDBC)
+
+Controller-Service-Dao
+
+
+className obj=new className();
+
+@Autowired
+className obj;
+
+postman method:
+GET()..........@getMApping
+POST().........@postmapping
+PUT()
+DELETE()
+
+{
+        "studId": 11,
+        "studName": "Kunjal",
+        "studCourse": "Java"
+}
+...............................
+//10thFeb
+
+Spring boot - Hibernate configuration
+
+1)Create spring project
+2)Create entity
+3)Create Controller,Service,Dao,entity in separate pkg
+Controller--RestController
+Service- Component or Service
+Dao- Repository
+4)properties file-datasourse and MySQL
+5)Entity annotations--@entity @id
+6)pom.xml.......JPA and MySQL dependencies
+spring-boot-starter-data-jpa
+
+spring.datasource.url=jdbc:mysql://localhost:3306/dbname?createDatabaseIfNotExist=true
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''
+11th Feb
+Spring MVC
+
+1)Create spring project
+2)Create entity/Model cls
+3)Create Controller, Service, Dao in separate pkg
+Controller--@Controller
+4)properties file-jsp file path
+add 2 lines
+	spring.mvc.view.prefix=/WEB-INF/pages/
+	spring.mvc.view.suffix=.jsp
+
+5)pom.xml.......add dependencies
+	tomcat-embed-jasper, javax.servlet-api
+6)create jsp file .jsp file
+	>>>>main>webapp>WEB-INF>pages>welcome.jsp file
+
+
+
+public String apiName(){
+
+retrun "jspFileName"
+}
+
+HTML----tag
+JSP....html tag and we can use java code
+<% %> scriptlate
+
+APIName(@ModelAttribute modelName,Model model)
+Model
+
+request, responce
+
+model.addAttribute(,)
+
+getAttribute()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
